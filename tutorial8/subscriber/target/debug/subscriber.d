@@ -1,0 +1,1 @@
+C:\Users\hariz\Kuliah\AdPro\Modul-9-Software-Architectures\tutorial8\subscriber\target\debug\subscriber.exe: C:\Users\hariz\Kuliah\AdPro\Modul-9-Software-Architectures\tutorial8\subscriber\src\main.rs
