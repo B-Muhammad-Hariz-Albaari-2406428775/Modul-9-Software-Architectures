@@ -36,7 +36,7 @@ dependencies = [
  "indexmap 1.9.3",
  "input_buffer",
  "log",
- "mio 0.6.23",
+ "mio 0.6.19",
  "mio-extras",
  "native-tls",
  "percent-encoding 2.3.2",
@@ -800,11 +800,9 @@ checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 
 [[package]]
 name = "mio"
-version = "0.6.23"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4afd66f5b91bf2a3bc13fad0e21caedac168ca4c707504e75585648ae80e4cc4"
+version = "0.6.19"
+source = "git+https://github.com/quininer/mio?branch=v0.6.x#f1b580c7f40dbb9d9303d4b1225e941e462207dd"
 dependencies = [
- "cfg-if 0.1.10",
  "fuchsia-zircon",
  "fuchsia-zircon-sys",
  "iovec",
@@ -836,7 +834,7 @@ checksum = "52403fe290012ce777c4626790c8951324a2b9e3316b3143779c72b029742f19"
 dependencies = [
  "lazycell",
  "log",
- "mio 0.6.23",
+ "mio 0.6.19",
  "slab",
 ]
 
@@ -1319,6 +1317,7 @@ checksum = "6ce2be8dc25455e1f91df71bfa12ad37d7af1092ae736f3a6cd0e37bc7810596"
 name = "subscriber"
 version = "0.1.0"
 dependencies = [
+ "amiquip",
  "borsh",
  "borsh-derive",
  "crosstown_bus",
